@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Hapebeast Calendar</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Quizzes calendar for the Hapebeast Fam!</h1>
+        <p>Made by emud#8345</p>
+    </div>
+    
+    
+    <div class="hero">
+        <div id="calendar"></div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./evo-calendar.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+                'theme': 'midnight Blue',
+                'sidebarDisplayDefault': false,
+                calendarEvents: [
+                    {
+                        id: 'bHay68s',
+                        name: "Current affairs knowledge Quiz.", 
+                        date: "January/16/2022", 
+                        description: " TIME: 7 AM EST WHERE: #book-club",
+                        type: "event"
+                    },
+                    {
+                        id: 'bHay69s', 
+                        name: "So You Think You Know Plants? ", 
+                        date: "January/14/2022", 
+                        description: " TIME: 5 PM EST WHERE: #🌳┃nature",
+                        type: "event"
+                    },
+                    {
+                        id: 'bHay62s', 
+                        name: "Guess a Game By Screenshot!", 
+                        date: "January/14/2022", 
+                        description: " TIME: 7 PM CET WHERE: #🎮┃gaming",
+                        type: "event"
+                    },
+                    {
+                        id: 'bHay62s', 
+                        name: "Guess The Country!", 
+                        date: "January/16/2022", 
+                        description: " TIME: 5 PM EST WHERE: #🌍┃travel",
+                        type: "event"
+                    },
+                    {
+                        id: 'bHty62s', 
+                        name: "Knowledge about Apes 🐒 ", 
+                        date: "January/15/2022", 
+                        description: " TIME:  7:30pm MEZ / 1:30pm EST WHERE: #🦧┃ask-a-hape",
+                        type: "event"
+                    },
+                    {
+                        id: 'brty62s', 
+                        name: "Guess Anime Logo! 💮 ", 
+                        date: "January/15/2022", 
+                        description: " TIME:  2pm UTC / 9am \n EST WHERE: #🎎┃anime",
+                        type: "event"
+                    },
+                    {
+                        id: 'brty62s', 
+                        name: "Name That Breed!🐶", 
+                        date: "January/16/2022", 
+                        description: " TIME: 2pm PST / 5pm EST WHERE: #😸┃show-your-pets",
+                        type: "event"
+                    },
+
+                ]
+            })
+        })
+    </script>
+</body>
+</html>

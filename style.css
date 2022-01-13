@@ -1,0 +1,22 @@
+body {
+  background-image: url('./imgs/bghape.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'roboto';
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 100vw;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+}
